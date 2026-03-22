@@ -1,7 +1,7 @@
 "use client"
 
 import { useContext } from "react"
-import { AppContext } from "@/context/AppContext"
+import { supabase } from "../../lib/supabase"
 
 export default function Wallet() {
   const { balance, setBalance } = useContext(AppContext)
