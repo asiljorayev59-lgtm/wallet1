@@ -1,7 +1,7 @@
 "use client"
 
 import { useContext } from "react"
-import { AppContext } from "@/context/AppContext"
+import { AppContext } from "../../context/AppContext"
 
 export default function Trade() {
   const { balance, setBalance } = useContext(AppContext)
